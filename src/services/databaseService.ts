@@ -1,4 +1,3 @@
-
 import { Project, Task, User, CreateProjectInput, CreateTaskInput, UpdateProjectInput, UpdateTaskInput } from '../types/database';
 
 // Simulação de um banco de dados em memória
@@ -28,7 +27,7 @@ class DatabaseService {
         id: '2',
         name: 'App Mobile Delivery',
         description: 'Aplicativo para entrega de comida',
-        status: 'in-progress',
+        status: 'active',
         priority: 'medium',
         estimatedHours: 80,
         createdAt: new Date('2024-02-01'),
